@@ -1,0 +1,12 @@
+# Optional: cfd-agent run examples/mixing_tee.yaml --rules configs/validation.yaml
+max_skewness: 0.95
+min_orthogonal_quality: 0.1
+aspect_ratio_warning: 100
+mass_imbalance_fraction: 0.01
+energy_imbalance_fraction: 0.02
+residual: 0.0001
+energy_residual: 0.000001
+monitor_window: 10
+monitor_temperature_span: 0.1
+max_velocity_factor: 10
+max_absolute_pressure: 10000000

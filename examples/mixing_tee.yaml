@@ -1,0 +1,19 @@
+geometry:
+  diameter: 0.05
+  branch_diameter: 0.02
+  bend_radius: 0.075
+  inlet_length: 0.15
+  outlet_length: 0.2
+  branch_length: 0.08
+  junction_angle: 60
+cold:
+  velocity: 1.0
+  temperature: 293.15
+hot:
+  velocity: 1.5
+  temperature: 333.15
+controls:
+  model: sst
+  mode: steady
+  mesh_size: 0.005
+  iterations: 300
